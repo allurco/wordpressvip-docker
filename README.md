@@ -8,11 +8,11 @@ Esse repositório está customizado com certas novas funcionalidades, abaixo des
 
 3. Crie um arquivo .env na raiz e adicione o que vem a seguir, caso precise altere a por e crie um proxy para a porta 80: 
 
-   ```
-   DOCKER_DEV_DOMAIN=xpinc-eventos.test  
-   LOCAL_PORT=80  
-   LOCAL_SSL_PORT=443  
-   ```
+```
+DOCKER_DEV_DOMAIN=xpinc-eventos.test  
+LOCAL_PORT=80  
+LOCAL_SSL_PORT=443  
+```
 
 4. Rode o `./setup.sh`
 
