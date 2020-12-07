@@ -1,3 +1,0 @@
-[submodule "docker-wp"]
-	path = docker-wp
-	url = git@github.com:joshbetz/docker-wp.git
