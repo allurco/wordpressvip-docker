@@ -7,6 +7,7 @@ Esse repositório está customizado com certas novas funcionalidades, abaixo des
 2. Adicione `xpinc-eventos.test` to your `/etc/hosts` file ([Help link](https://docs.rackspace.com/support/how-to/modify-your-hosts-file)) 
 
 3. Crie um arquivo .env na raiz e adicione o que vem a seguir, caso precise altere a por e crie um proxy para a porta 80: 
+
    ```env
    DOCKER_DEV_DOMAIN=xpinc-eventos.test 
    LOCAL_PORT=80 
