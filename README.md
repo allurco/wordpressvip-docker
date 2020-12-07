@@ -7,8 +7,9 @@ Esse repositório está customizado com certas novas funcionalidades, abaixo des
 2. Adicione `xpinc-eventos.test` to your `/etc/hosts` file ([Help link](https://docs.rackspace.com/support/how-to/modify-your-hosts-file)) 
 
 3. Crie um arquivo .env na raiz e adicione o que vem a seguir, caso precise altere a por e crie um proxy para a porta 80: 
-   ```DOCKER_DEV_DOMAIN=xpinc-eventos.test
-   LOCAL_PORT=80
+   ```env
+   DOCKER_DEV_DOMAIN=xpinc-eventos.test 
+   LOCAL_PORT=80 
    LOCAL_SSL_PORT=443
    ```
 
@@ -24,8 +25,8 @@ O Repositório do wp-vip-go é clonado ao rodar o script `./update.sh`. Dentro d
 
 Depois de clonado (Está a usar o develop como base), você pode trocar e criar o seu próprio branch:
 
-```bash
-cd src/wp
+```bash 
+cd src/wp 
 git checkout -b [branch name]
 ```
 
