@@ -32,7 +32,7 @@ git checkout -b [branch name]
 
 Daqui (src/wp) você pode mandar as alterações para o repositório do Wordpress VIP usando o git. Não use o git da raíz deste projeto, a não ser por uma causa bem nobre, exemplo: Subir backup da base de dados.
 
-**Duvidas é só falar comigo**
+**Duvidas é só falar comigo rogers.sampaio@vitaminaweb.com.br**
 
 # WordPress VIP Go development for Docker
 
