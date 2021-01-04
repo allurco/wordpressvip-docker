@@ -26,4 +26,4 @@ $memcached_servers = array(
 	),
 );
 
-
+define( 'WP_ALLOW_MULTISITE', true );
