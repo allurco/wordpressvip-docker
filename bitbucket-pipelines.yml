@@ -19,5 +19,5 @@ pipelines:
               variables:
                 USER: $USER
                 SERVER: $SERVER
-                REMOTE_PATH: '/home/xp-whitelable'
+                REMOTE_PATH: '~/xp-whitelable'
                 LOCAL_PATH: '/'
