@@ -20,3 +20,4 @@ pipelines:
                 USER: $USER
                 SERVER: $SERVER
                 REMOTE_PATH: '/home/ubuntu/xp-whitelable'
+                LOCAL_PATH: '*'
