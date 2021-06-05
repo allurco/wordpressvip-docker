@@ -27,6 +27,7 @@ services:
       - "./src/wp/plugins:/var/www/html/wp-content/plugins"
       - "./src/wp/private:/var/www/html/wp-content/private"
       - "./src/wp/themes:/var/www/html/wp-content/themes"
+      - "./src/uploads:/var/www/html/wp-content/uploads"
       - "./src/wp/vip-config:/var/www/html/wp-content/vip-config"
   wp-cli:
     image: "wordpress:cli-${WP_CLI_VERSION:-2.4.0}-php${PHP_VERSION:-7.4}"
@@ -49,6 +50,7 @@ services:
       - "./src/wp/plugins:/var/www/html/wp-content/plugins"
       - "./src/wp/private:/var/www/html/wp-content/private"
       - "./src/wp/themes:/var/www/html/wp-content/themes"
+      - "./src/uploads:/var/www/html/wp-content/uploads"
       - "./src/wp/vip-config:/var/www/html/wp-content/vip-config"
   photon:
     image: "chriszarate/photon:latest"
